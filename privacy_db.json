@@ -1,0 +1,20 @@
+{
+  "WhatsApp": {
+    "risk": "High",
+    "reason": "Owned by Meta. Collects contacts, metadata, and backups are unencrypted by default.",
+    "alternative": "Signal",
+    "alternative_url": "https://signal.org"
+  },
+  "Telegram": {
+    "risk": "Medium",
+    "reason": "Cloud chats are not E2E encrypted by default. Server code is not open-source.",
+    "alternative": "Session",
+    "alternative_url": "https://getsession.org"
+  },
+  "Zoom": {
+    "risk": "High",
+    "reason": "Past security issues. Requires phone number for signup.",
+    "alternative": "Jitsi",
+    "alternative_url": "https://jitsi.org"
+  }
+}
